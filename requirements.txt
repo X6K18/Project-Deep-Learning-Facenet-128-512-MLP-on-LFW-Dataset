@@ -1,0 +1,11 @@
+pandas 
+numpy 
+matplotlib 
+seaborn 
+customtkinter
+deepface 
+tensorflow
+cv2 
+joblib
+tqdm
+scikit-learn

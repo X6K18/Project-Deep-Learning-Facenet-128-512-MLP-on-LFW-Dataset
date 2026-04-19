@@ -1,0 +1,46 @@
+--- BÁO CÁO KẾT QUẢ NHẬN DIỆN ---
+Thời gian: 2026-04-19 14:44:21
+Model trích xuất: Facenet
+EER đạt được: 0.0513 tại Threshold: 0.7576
+
+--- CHI TIẾT CLASSIFICATION REPORT ---
+                           precision    recall  f1-score   support
+
+         Alejandro_Toledo       0.80      1.00      0.89         8
+             Alvaro_Uribe       0.75      0.86      0.80         7
+             Andre_Agassi       0.88      1.00      0.93         7
+             Ariel_Sharon       0.94      0.94      0.94        16
+    Arnold_Schwarzenegger       1.00      1.00      1.00         8
+             Colin_Powell       0.98      0.94      0.96        47
+            David_Beckham       1.00      0.83      0.91         6
+          Donald_Rumsfeld       0.91      0.88      0.89        24
+            George_W_Bush       0.88      0.95      0.91       106
+        Gerhard_Schroeder       0.86      0.86      0.86        22
+  Gloria_Macapagal_Arroyo       0.80      0.89      0.84         9
+          Guillermo_Coria       0.86      1.00      0.92         6
+                Hans_Blix       1.00      0.88      0.93         8
+              Hugo_Chavez       0.88      1.00      0.93        14
+           Jacques_Chirac       1.00      1.00      1.00        10
+            Jean_Chretien       1.00      0.91      0.95        11
+        Jennifer_Capriati       1.00      1.00      1.00         8
+            John_Ashcroft       0.92      1.00      0.96        11
+          John_Negroponte       0.86      1.00      0.92         6
+        Junichiro_Koizumi       0.92      1.00      0.96        12
+               Kofi_Annan       0.83      0.83      0.83         6
+               Laura_Bush       1.00      0.75      0.86         8
+           Lleyton_Hewitt       1.00      1.00      1.00         8
+Luiz_Inacio_Lula_da_Silva       1.00      0.60      0.75        10
+    Megawati_Sukarnoputri       1.00      0.86      0.92         7
+          Nestor_Kirchner       1.00      0.62      0.77         8
+     Recep_Tayyip_Erdogan       1.00      0.50      0.67         6
+             Roh_Moo-hyun       1.00      0.83      0.91         6
+          Serena_Williams       1.00      0.90      0.95        10
+        Silvio_Berlusconi       0.86      0.86      0.86         7
+                Tom_Ridge       0.78      1.00      0.88         7
+               Tony_Blair       0.96      0.93      0.95        29
+              Vicente_Fox       1.00      1.00      1.00         6
+           Vladimir_Putin       1.00      1.00      1.00        10
+
+                 accuracy                           0.92       474
+                macro avg       0.93      0.90      0.91       474
+             weighted avg       0.92      0.92      0.92       474
