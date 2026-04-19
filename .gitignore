@@ -1,0 +1,11 @@
+# Bỏ qua toàn bộ nội dung trong thư mục data (nhưng giữ lại thư mục này)
+data/process/
+data/raw_3_images/
+data/raw_50_images/
+
+# Bỏ qua các file mô hình nặng trong thư mục models
+# models/*.h5
+# models/*.pkl
+
+# Hoặc nếu muốn bỏ qua tất cả trong models ngoại trừ file README (nếu có)
+models/
