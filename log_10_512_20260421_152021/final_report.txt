@@ -1,0 +1,179 @@
+--- BÁO CÁO KẾT QUẢ NHẬN DIỆN ---
+Thời gian: 2026-04-21 15:51:50
+Model trích xuất: Facenet512
+EER đạt được: 0.0811 tại Threshold: 0.8485
+
+Train Accuracy: 0.988
+Test Accuracy: 0.914
+Train Loss: 0.0651
+Test Loss: 0.5178
+FAR (tại EER): 0.0811
+FRR (tại EER): 0.0796
+Tổng thời gian dự đoán (Test set): 0.1482 giây
+Thời gian dự đoán trung bình/ảnh: 0.0002 giây
+
+--- CHI TIẾT CLASSIFICATION REPORT ---
+                           precision    recall  f1-score   support
+
+             Abdullah_Gul       0.67      0.50      0.57         4
+             Adrien_Brody       1.00      1.00      1.00         2
+         Alejandro_Toledo       1.00      0.88      0.93         8
+             Alvaro_Uribe       0.67      0.86      0.75         7
+          Amelie_Mauresmo       1.00      1.00      1.00         4
+             Andre_Agassi       0.88      1.00      0.93         7
+             Andy_Roddick       0.60      1.00      0.75         3
+           Angelina_Jolie       1.00      1.00      1.00         4
+              Ann_Veneman       1.00      1.00      1.00         2
+          Anna_Kournikova       1.00      0.50      0.67         2
+            Ari_Fleischer       1.00      1.00      1.00         3
+             Ariel_Sharon       0.89      1.00      0.94        16
+    Arnold_Schwarzenegger       0.88      0.88      0.88         8
+     Atal_Bihari_Vajpayee       0.80      0.80      0.80         5
+             Bill_Clinton       0.83      0.83      0.83         6
+               Bill_Gates       0.60      1.00      0.75         3
+             Bill_McBride       1.00      1.00      1.00         2
+               Bill_Simon       0.67      0.67      0.67         3
+           Britney_Spears       1.00      1.00      1.00         3
+             Carlos_Menem       1.00      0.50      0.67         4
+              Carlos_Moya       1.00      1.00      1.00         4
+     Catherine_Zeta-Jones       1.00      1.00      1.00         2
+            Charles_Moose       0.67      0.67      0.67         3
+             Colin_Powell       0.88      0.98      0.93        47
+         Condoleezza_Rice       1.00      0.50      0.67         2
+            David_Beckham       1.00      1.00      1.00         6
+         David_Nalbandian       1.00      0.67      0.80         3
+              Dick_Cheney       1.00      0.67      0.80         3
+    Dominique_de_Villepin       1.00      0.67      0.80         3
+          Donald_Rumsfeld       0.96      0.92      0.94        24
+           Edmund_Stoiber       1.00      0.67      0.80         3
+          Eduardo_Duhalde       1.00      0.67      0.80         3
+             Fidel_Castro       1.00      0.75      0.86         4
+           George_HW_Bush       0.75      1.00      0.86         3
+         George_Robertson       0.75      0.75      0.75         4
+            George_W_Bush       0.91      0.95      0.93       106
+        Gerhard_Schroeder       1.00      1.00      1.00        22
+  Gloria_Macapagal_Arroyo       0.82      1.00      0.90         9
+Gonzalo_Sanchez_de_Lozada       1.00      1.00      1.00         2
+             Gordon_Brown       0.60      1.00      0.75         3
+               Gray_Davis       0.67      0.80      0.73         5
+          Guillermo_Coria       1.00      1.00      1.00         6
+              Halle_Berry       1.00      1.00      1.00         3
+             Hamid_Karzai       1.00      1.00      1.00         4
+                Hans_Blix       1.00      0.75      0.86         8
+            Harrison_Ford       1.00      0.50      0.67         2
+          Hillary_Clinton       1.00      1.00      1.00         3
+              Howard_Dean       1.00      1.00      1.00         2
+                Hu_Jintao       0.75      1.00      0.86         3
+              Hugo_Chavez       1.00      0.93      0.96        14
+               Ian_Thorpe       1.00      1.00      1.00         2
+              Igor_Ivanov       1.00      0.75      0.86         4
+               Jack_Straw       1.00      0.83      0.91         6
+              Jackie_Chan       1.00      1.00      1.00         3
+           Jacques_Chirac       1.00      0.91      0.95        11
+            Jacques_Rogge       1.00      1.00      1.00         2
+              James_Blake       1.00      1.00      1.00         3
+              James_Kelly       1.00      1.00      1.00         2
+               Jason_Kidd       1.00      1.00      1.00         2
+            Javier_Solana       1.00      1.00      1.00         2
+       Jean-David_Levitte       1.00      1.00      1.00         2
+             Jean_Charest       1.00      0.33      0.50         3
+            Jean_Chretien       1.00      1.00      1.00        11
+                 Jeb_Bush       1.00      1.00      1.00         2
+         Jennifer_Aniston       1.00      1.00      1.00         4
+        Jennifer_Capriati       1.00      1.00      1.00         9
+          Jennifer_Garner       1.00      0.50      0.67         2
+           Jennifer_Lopez       1.00      1.00      1.00         4
+        Jeremy_Greenstock       1.00      1.00      1.00         5
+              Jiang_Zemin       1.00      1.00      1.00         4
+               Jiri_Novak       1.00      1.00      1.00         2
+            Joe_Lieberman       1.00      0.67      0.80         3
+      John_Allen_Muhammad       1.00      1.00      1.00         2
+            John_Ashcroft       0.91      0.91      0.91        11
+              John_Bolton       1.00      1.00      1.00         3
+              John_Howard       1.00      1.00      1.00         4
+               John_Kerry       1.00      0.67      0.80         3
+          John_Negroponte       1.00      0.83      0.91         6
+             John_Paul_II       1.00      1.00      1.00         2
+                John_Snow       1.00      1.00      1.00         3
+          Joschka_Fischer       0.80      1.00      0.89         4
+         Jose_Maria_Aznar       0.83      1.00      0.91         5
+      Juan_Carlos_Ferrero       0.86      1.00      0.92         6
+           Julianne_Moore       1.00      1.00      1.00         4
+         Julie_Gerberding       1.00      0.67      0.80         3
+        Junichiro_Koizumi       1.00      0.92      0.96        12
+             Keanu_Reeves       1.00      1.00      1.00         2
+            Kim_Clijsters       1.00      1.00      1.00         3
+           Kim_Ryong-sung       1.00      1.00      1.00         2
+               Kofi_Annan       1.00      0.83      0.91         6
+          Lance_Armstrong       1.00      1.00      1.00         4
+               Laura_Bush       1.00      0.75      0.86         8
+        Lindsay_Davenport       1.00      1.00      1.00         4
+           Lleyton_Hewitt       1.00      1.00      1.00         8
+          Lucio_Gutierrez       0.67      0.67      0.67         3
+Luiz_Inacio_Lula_da_Silva       0.90      0.90      0.90        10
+         Mahathir_Mohamad       0.50      0.67      0.57         3
+            Mahmoud_Abbas       1.00      0.83      0.91         6
+       Mark_Philippoussis       1.00      1.00      1.00         2
+    Megawati_Sukarnoputri       1.00      0.86      0.92         7
+             Meryl_Streep       1.00      1.00      1.00         3
+        Michael_Bloomberg       1.00      1.00      1.00         4
+          Michael_Jackson       1.00      1.00      1.00         2
+       Michael_Schumacher       1.00      0.75      0.86         4
+                Mike_Weir       1.00      1.00      1.00         2
+         Mohammad_Khatami       0.67      1.00      0.80         2
+        Mohammed_Al-Douri       1.00      0.67      0.80         3
+             Muhammad_Ali       1.00      0.50      0.67         2
+             Nancy_Pelosi       1.00      0.67      0.80         3
+              Naomi_Watts       0.75      0.75      0.75         4
+          Nestor_Kirchner       1.00      0.86      0.92         7
+    Nicanor_Duarte_Frutos       1.00      1.00      1.00         2
+            Nicole_Kidman       1.00      0.50      0.67         4
+              Norah_Jones       1.00      1.00      1.00         3
+      Paradorn_Srichaphan       1.00      1.00      1.00         2
+              Paul_Bremer       1.00      1.00      1.00         4
+             Paul_Burrell       1.00      1.00      1.00         2
+           Paul_Wolfowitz       1.00      1.00      1.00         2
+         Pervez_Musharraf       1.00      0.75      0.86         4
+             Pete_Sampras       1.00      1.00      1.00         4
+           Pierce_Brosnan       1.00      1.00      1.00         3
+       Queen_Elizabeth_II       1.00      1.00      1.00         3
+     Recep_Tayyip_Erdogan       0.71      0.83      0.77         6
+          Renee_Zellweger       1.00      1.00      1.00         3
+            Ricardo_Lagos       0.83      1.00      0.91         5
+         Richard_Gephardt       1.00      1.00      1.00         2
+             Richard_Gere       1.00      1.00      1.00         2
+            Richard_Myers       1.00      1.00      1.00         4
+            Roger_Federer       1.00      0.67      0.80         3
+             Roh_Moo-hyun       0.67      1.00      0.80         6
+       Rubens_Barrichello       0.67      1.00      0.80         2
+         Rudolph_Giuliani       1.00      1.00      1.00         5
+           Saddam_Hussein       1.00      0.80      0.89         5
+              Salma_Hayek       0.60      1.00      0.75         3
+          Serena_Williams       1.00      1.00      1.00        11
+            Sergey_Lavrov       1.00      1.00      1.00         2
+   Sergio_Vieira_De_Mello       1.00      0.50      0.67         2
+        Silvio_Berlusconi       0.86      0.86      0.86         7
+          Spencer_Abraham       0.67      0.67      0.67         3
+      Taha_Yassin_Ramadan       0.67      0.67      0.67         3
+             Tang_Jiaxuan       0.67      1.00      0.80         2
+              Tiger_Woods       1.00      1.00      1.00         5
+               Tim_Henman       1.00      0.75      0.86         4
+               Tom_Cruise       1.00      1.00      1.00         2
+              Tom_Daschle       1.00      1.00      1.00         5
+                Tom_Hanks       0.67      1.00      0.80         2
+                Tom_Ridge       1.00      0.86      0.92         7
+             Tommy_Franks       0.60      1.00      0.75         3
+           Tommy_Thompson       1.00      1.00      1.00         2
+               Tony_Blair       0.91      1.00      0.95        29
+               Trent_Lott       1.00      0.67      0.80         3
+           Venus_Williams       1.00      1.00      1.00         3
+              Vicente_Fox       1.00      0.83      0.91         6
+           Vladimir_Putin       0.91      1.00      0.95        10
+           Walter_Mondale       1.00      1.00      1.00         2
+               Wen_Jiabao       1.00      0.67      0.80         3
+             Winona_Ryder       0.71      1.00      0.83         5
+         Yoriko_Kawaguchi       1.00      1.00      1.00         3
+
+                 accuracy                           0.91       865
+                macro avg       0.93      0.89      0.90       865
+             weighted avg       0.93      0.91      0.91       865
