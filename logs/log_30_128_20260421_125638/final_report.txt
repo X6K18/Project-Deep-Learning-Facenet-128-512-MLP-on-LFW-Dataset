@@ -1,0 +1,55 @@
+--- BÁO CÁO KẾT QUẢ NHẬN DIỆN ---
+Thời gian: 2026-04-21 13:20:27
+Model trích xuất: Facenet
+EER đạt được: 0.0513 tại Threshold: 0.7879
+
+Train Accuracy: 0.982
+Test Accuracy: 0.918
+Train Loss: 0.0928
+Test Loss: 0.4017
+FAR (tại EER): 0.0513
+FRR (tại EER): 0.0506
+Tổng thời gian dự đoán (Test set): 0.1275 giây
+Thời gian dự đoán trung bình/ảnh: 0.0003 giây
+
+--- CHI TIẾT CLASSIFICATION REPORT ---
+                           precision    recall  f1-score   support
+
+         Alejandro_Toledo       1.00      1.00      1.00         8
+             Alvaro_Uribe       0.55      0.86      0.67         7
+             Andre_Agassi       1.00      1.00      1.00         7
+             Ariel_Sharon       0.93      0.88      0.90        16
+    Arnold_Schwarzenegger       1.00      0.88      0.93         8
+             Colin_Powell       0.96      0.94      0.95        47
+            David_Beckham       1.00      1.00      1.00         6
+          Donald_Rumsfeld       0.88      0.88      0.88        24
+            George_W_Bush       0.88      0.96      0.92       106
+        Gerhard_Schroeder       0.95      0.91      0.93        22
+  Gloria_Macapagal_Arroyo       1.00      0.89      0.94         9
+          Guillermo_Coria       1.00      0.83      0.91         6
+                Hans_Blix       0.88      0.88      0.88         8
+              Hugo_Chavez       0.93      0.93      0.93        14
+           Jacques_Chirac       1.00      0.90      0.95        10
+            Jean_Chretien       1.00      0.91      0.95        11
+        Jennifer_Capriati       1.00      0.88      0.93         8
+            John_Ashcroft       0.91      0.91      0.91        11
+          John_Negroponte       1.00      1.00      1.00         6
+        Junichiro_Koizumi       1.00      1.00      1.00        12
+               Kofi_Annan       0.83      0.83      0.83         6
+               Laura_Bush       0.75      0.75      0.75         8
+           Lleyton_Hewitt       1.00      1.00      1.00         8
+Luiz_Inacio_Lula_da_Silva       1.00      0.70      0.82        10
+    Megawati_Sukarnoputri       1.00      0.86      0.92         7
+          Nestor_Kirchner       1.00      0.75      0.86         8
+     Recep_Tayyip_Erdogan       0.80      0.67      0.73         6
+             Roh_Moo-hyun       1.00      1.00      1.00         6
+          Serena_Williams       1.00      0.90      0.95        10
+        Silvio_Berlusconi       1.00      0.86      0.92         7
+                Tom_Ridge       1.00      0.86      0.92         7
+               Tony_Blair       0.82      0.97      0.89        29
+              Vicente_Fox       1.00      1.00      1.00         6
+           Vladimir_Putin       1.00      1.00      1.00        10
+
+                 accuracy                           0.92       474
+                macro avg       0.94      0.90      0.92       474
+             weighted avg       0.93      0.92      0.92       474

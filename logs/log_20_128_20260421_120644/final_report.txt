@@ -1,0 +1,83 @@
+--- BÁO CÁO KẾT QUẢ NHẬN DIỆN ---
+Thời gian: 2026-04-21 12:54:54
+Model trích xuất: Facenet
+EER đạt được: 0.0625 tại Threshold: 0.8081
+
+Train Accuracy: 0.970
+Test Accuracy: 0.894
+Train Loss: 0.1154
+Test Loss: 0.5496
+FAR (tại EER): 0.0625
+FRR (tại EER): 0.0573
+Tổng thời gian dự đoán (Test set): 0.2542 giây
+Thời gian dự đoán trung bình/ảnh: 0.0004 giây
+
+--- CHI TIẾT CLASSIFICATION REPORT ---
+                           precision    recall  f1-score   support
+
+         Alejandro_Toledo       1.00      0.75      0.86         8
+             Alvaro_Uribe       1.00      0.86      0.92         7
+          Amelie_Mauresmo       1.00      1.00      1.00         4
+             Andre_Agassi       1.00      1.00      1.00         7
+           Angelina_Jolie       1.00      0.50      0.67         4
+             Ariel_Sharon       0.94      0.94      0.94        16
+    Arnold_Schwarzenegger       1.00      0.88      0.93         8
+     Atal_Bihari_Vajpayee       1.00      0.60      0.75         5
+             Bill_Clinton       1.00      0.67      0.80         6
+             Carlos_Menem       1.00      0.75      0.86         4
+             Colin_Powell       0.98      0.96      0.97        47
+            David_Beckham       1.00      0.83      0.91         6
+          Donald_Rumsfeld       0.96      0.92      0.94        24
+         George_Robertson       0.80      1.00      0.89         4
+            George_W_Bush       0.74      0.97      0.84       106
+        Gerhard_Schroeder       1.00      0.91      0.95        22
+  Gloria_Macapagal_Arroyo       0.89      0.89      0.89         9
+               Gray_Davis       1.00      0.20      0.33         5
+          Guillermo_Coria       0.83      0.83      0.83         6
+             Hamid_Karzai       1.00      1.00      1.00         4
+                Hans_Blix       1.00      0.88      0.93         8
+              Hugo_Chavez       0.93      1.00      0.97        14
+              Igor_Ivanov       1.00      1.00      1.00         4
+               Jack_Straw       1.00      1.00      1.00         6
+           Jacques_Chirac       1.00      1.00      1.00        11
+            Jean_Chretien       1.00      0.91      0.95        11
+         Jennifer_Aniston       1.00      0.75      0.86         4
+        Jennifer_Capriati       0.88      0.88      0.88         8
+           Jennifer_Lopez       0.67      1.00      0.80         4
+        Jeremy_Greenstock       1.00      0.60      0.75         5
+              Jiang_Zemin       1.00      1.00      1.00         4
+            John_Ashcroft       0.90      0.82      0.86        11
+          John_Negroponte       1.00      1.00      1.00         6
+         Jose_Maria_Aznar       1.00      0.60      0.75         5
+      Juan_Carlos_Ferrero       1.00      1.00      1.00         6
+        Junichiro_Koizumi       1.00      0.92      0.96        12
+               Kofi_Annan       0.86      1.00      0.92         6
+               Laura_Bush       0.88      0.88      0.88         8
+        Lindsay_Davenport       1.00      0.75      0.86         4
+           Lleyton_Hewitt       0.86      0.75      0.80         8
+Luiz_Inacio_Lula_da_Silva       0.82      0.90      0.86        10
+            Mahmoud_Abbas       1.00      0.67      0.80         6
+    Megawati_Sukarnoputri       0.70      1.00      0.82         7
+        Michael_Bloomberg       1.00      0.75      0.86         4
+              Naomi_Watts       0.80      1.00      0.89         4
+          Nestor_Kirchner       1.00      0.86      0.92         7
+              Paul_Bremer       1.00      0.50      0.67         4
+             Pete_Sampras       1.00      1.00      1.00         4
+     Recep_Tayyip_Erdogan       0.71      0.83      0.77         6
+            Ricardo_Lagos       1.00      0.80      0.89         5
+             Roh_Moo-hyun       1.00      0.67      0.80         6
+         Rudolph_Giuliani       1.00      1.00      1.00         5
+           Saddam_Hussein       1.00      1.00      1.00         5
+          Serena_Williams       1.00      0.91      0.95        11
+        Silvio_Berlusconi       0.78      1.00      0.88         7
+              Tiger_Woods       1.00      1.00      1.00         5
+              Tom_Daschle       0.83      1.00      0.91         5
+                Tom_Ridge       1.00      0.86      0.92         7
+               Tony_Blair       0.93      0.86      0.89        29
+              Vicente_Fox       1.00      0.67      0.80         6
+           Vladimir_Putin       1.00      1.00      1.00        10
+             Winona_Ryder       1.00      0.60      0.75         5
+
+                 accuracy                           0.89       605
+                macro avg       0.95      0.86      0.88       605
+             weighted avg       0.91      0.89      0.89       605
