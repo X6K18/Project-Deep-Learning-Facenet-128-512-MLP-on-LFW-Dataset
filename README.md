@@ -1,37 +1,249 @@
-#  Face Recognition using FaceNet (128/512) + MLP on LFW Dataset
+# Face Recognition using FaceNet (128/512) + MLP on LFW Dataset
 
-##  Introduction
-This project implements a **face recognition system** using **FaceNet embeddings (128D / 512D)** combined with a **Multi-Layer Perceptron (MLP)** classifier.
+A Deep Learning-based face recognition system using **FaceNet embeddings (128D / 512D)** combined with a **Multi-Layer Perceptron (MLP)** classifier for facial identity recognition.
 
-The model is trained and evaluated on the **Labeled Faces in the Wild (LFW)** dataset, a popular benchmark in face recognition with real-world variations such as lighting, pose, and expressions.
-
----
-
-##  Dataset
-- **Name:** LFW (Labeled Faces in the Wild)  
-- **Source:** Kaggle  
-- **Link:** https://www.kaggle.com/datasets/atulanandjha/lfwpeople  
-
-### Dataset Details:
-- ~13,000+ images  
-- ~5,700 identities  
-- Images collected in unconstrained environments  
+This project focuses on:
+- Face embedding extraction
+- Embedding compression efficiency
+- Facial representation encoding
+- Identity classification
+- Real-time face recognition
+- Performance evaluation on the LFW dataset
 
 ---
 
-##  Methodology
+# Introduction
 
-### 1. Face Embedding (Feature Extraction)
-We use **FaceNet** to convert face images into vector representations:
-- **FaceNet128** → 128-dimensional embedding  
-- **FaceNet512** → 512-dimensional embedding  
+Face recognition is one of the most important applications in Computer Vision and Deep Learning.  
+This project implements a complete facial recognition pipeline using FaceNet for feature extraction and an MLP classifier for identity prediction.
+
+The system is trained and evaluated on the **Labeled Faces in the Wild (LFW)** dataset, a popular benchmark dataset containing unconstrained face images with variations in:
+- Lighting
+- Facial expressions
+- Pose
+- Background
+- Image quality
+
+The project aims to analyze the effectiveness of FaceNet embeddings and compare the performance between:
+- FaceNet128
+- FaceNet512
 
 ---
 
-### 2. Classification (MLP)
-A **Multi-Layer Perceptron (MLP)** is used for classification:
-- Input: Face embeddings  
-- Hidden layers: Dense + ReLU  
-- Output: Softmax (identity prediction)  
+# Dataset
+
+## Labeled Faces in the Wild (LFW)
+
+- **Dataset Name:** LFW (Labeled Faces in the Wild)
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/atulanandjha/lfwpeople
+
+### Dataset Details
+
+| Property | Value |
+|---|---|
+| Total Images | 13,000+ |
+| Total Identities | 5,700+ |
+| Environment | Unconstrained |
+| Image Type | Human Faces |
+
+The dataset contains face images collected from the web under real-world conditions, making it suitable for evaluating robust face recognition systems.
 
 ---
+
+# Project Objectives
+
+The main objectives of this project are:
+
+- Build a face recognition system using deep learning
+- Extract robust facial embeddings using FaceNet
+- Compare FaceNet128 and FaceNet512 performance
+- Reduce storage requirements using embedding vectors
+- Improve classification accuracy using MLP
+- Evaluate model generalization on unseen data
+- Develop a reusable real-time recognition pipeline
+
+---
+
+# Technologies Used
+
+| Category | Technology |
+|---|---|
+| Programming Language | Python |
+| Deep Learning Framework | TensorFlow / Keras |
+| Face Recognition Library | DeepFace |
+| Feature Extraction | FaceNet128 / FaceNet512 |
+| Machine Learning | Scikit-learn |
+| Data Processing | NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Image Processing | OpenCV |
+| Dataset | LFW |
+
+---
+
+# Methodology
+
+## 1. Face Detection
+
+The system first detects faces from input images using DeepFace-supported detectors such as:
+
+- OpenCV
+- RetinaFace
+- MTCNN
+
+Face detection helps isolate facial regions before feature extraction.
+
+---
+
+## 2. Face Alignment
+
+Detected faces are aligned to normalize:
+- Face orientation
+- Eye positioning
+- Facial scaling
+
+This step improves embedding consistency and recognition performance.
+
+---
+
+## 3. Face Embedding (Feature Extraction)
+
+The project uses FaceNet to transform facial images into compact numerical vector representations called embeddings.
+
+### FaceNet Models
+
+| Model | Embedding Dimension |
+|---|---|
+| FaceNet128 | 128D |
+| FaceNet512 | 512D |
+
+### Embedding Compression
+
+The embedding generation process acts as a feature compression mechanism:
+
+- Original face images contain thousands of pixel values
+- FaceNet converts them into compact numerical vectors
+- Important facial characteristics are preserved while reducing dimensionality
+
+Example:
+- Raw image → High-dimensional pixel space
+- Embedding vector → Compact latent representation
+
+This significantly reduces storage cost compared to storing raw image data.
+
+---
+
+# Data Encoding Process
+
+The project applies encoding at multiple stages:
+
+| Stage | Encoding Type |
+|---|---|
+| Input Image | RGB Pixel Encoding |
+| Face Embedding | Latent Feature Encoding |
+| Labels | Numerical Label Encoding |
+| Classification Output | Probability Encoding |
+
+FaceNet encodes facial identity information into latent vector space suitable for machine learning classification.
+
+---
+
+# Classification using MLP
+
+A **Multi-Layer Perceptron (MLP)** classifier is used for facial identity prediction.
+
+## MLP Architecture
+
+The classifier includes:
+- Input Layer
+- Dense Hidden Layers
+- ReLU Activation
+- Batch Normalization
+- Dropout
+- Softmax Output Layer
+
+### Input
+- Face embeddings generated by FaceNet
+
+### Output
+- Predicted identity label
+
+---
+
+# Overfitting Prevention Techniques
+
+Several regularization techniques were applied to improve generalization performance:
+
+- Batch Normalization
+- Dropout
+- Early Stopping
+- Validation Monitoring
+
+These methods help reduce overfitting and improve stability during training.
+
+---
+
+# Experimental Evaluation
+
+The project evaluates multiple performance metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+- Classification Performance
+- Embedding Comparison
+- Compression Efficiency
+
+---
+
+# Real-time Face Recognition
+
+The system supports real-time face recognition using webcam input.
+
+## Features
+
+- Real-time face detection
+- Real-time identity prediction
+- Confidence score display
+- Frame skipping optimization
+- Multiple detector backend support
+
+---
+
+# Project Structure
+
+```bash
+facenet_mlp/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── embeddings/
+│
+├── notebooks/
+│   ├── eda/
+│   ├── training/
+│   └── evaluation/
+│
+├── models/
+│   ├── facenet128/
+│   ├── facenet512/
+│   └── mlp/
+│
+├── results/
+│   ├── figures/
+│   ├── metrics/
+│   ├── confusion_matrix/
+│   └── logs/
+│
+├── app/
+│   └── realtime_recognition/
+│
+├── assets/
+│   └── pipeline_diagrams/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore

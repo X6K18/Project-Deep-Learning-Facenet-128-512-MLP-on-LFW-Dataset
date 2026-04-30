@@ -29,7 +29,7 @@ class FaceRecognitionPage(CTkScrollableFrame):
         self.CONFIDENCE_THRESHOLD = 60
         self.SKIP_FRAMES = 3
         self.DETECTOR_BACKEND = "opencv"
-        self.MODEL_PATH = "app/models/Facenet512_svm.pkl"
+        self.MODEL_PATH = "app/models/Facenet512_svm_037.pkl"
 
         # -------------------- DATA --------------------
         self.load_models_and_data()
@@ -189,7 +189,7 @@ class FaceRecognitionPage(CTkScrollableFrame):
         default_config = {
             "START_TIME": "00:18:00",
             "END_TIME": "00:19:00",
-            "ATTENDANCE_FILE": "app/attendance/attendance_001.csv"
+            "ATTENDANCE_FILE": "attendance/attendance_001.csv"
         }
         if os.path.exists(self.config_file):
             with open(self.config_file, "r") as f:

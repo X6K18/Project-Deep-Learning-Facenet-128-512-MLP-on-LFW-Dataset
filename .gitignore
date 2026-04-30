@@ -2,6 +2,7 @@
 data/process/
 data/raw_3_images/
 data/raw_50_images/
+data/raw_name
 
 # Bỏ qua các file mô hình nặng trong thư mục models
 # models/*.h5
@@ -9,3 +10,8 @@ data/raw_50_images/
 
 # Hoặc nếu muốn bỏ qua tất cả trong models ngoại trừ file README (nếu có)
 models/
+
+documents/ 
+
+app/data
+
